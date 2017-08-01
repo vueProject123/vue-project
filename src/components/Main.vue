@@ -22,5 +22,7 @@
 </script>
 
 <style scoped>
-
+	.main{
+		padding: 0 .15rem;
+	}
 </style>

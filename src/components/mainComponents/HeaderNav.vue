@@ -2,7 +2,7 @@
 	<div class="headerNav">
 		<ul>
 			<li v-for="list in titleList">
-				<span @click='getComponent(list.tab_name)' >{{list.tab_name}}</span>
+				<span @click='getComponent(list.tab_name)'>{{list.tab_name}}</span>
 			</li>
 		</ul>
 		<component :is='component'></component>
@@ -23,6 +23,7 @@
 		data:function(){
 			return {
 				titleList:[],
+				isShow:true,
 				component:'tuijian'
 			}
 		},
@@ -86,6 +87,10 @@
 		    		line-height: .6rem;
 		    	}
 		    	span:hover{
+		    		color: #ed5b00;
+		    	}
+		    	&.active{
+		    		border-bottom:2px solid #ed5b00;
 		    		color: #ed5b00;
 		    	}
 		    }

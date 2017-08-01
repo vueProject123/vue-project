@@ -5,8 +5,8 @@
 				<img src="../../assets/img/logo.png">
 			</div>
 			<div class="search_bar">
-				<a >
-					<span class="iconfont icon-search i"></span>
+				<a href="#/search">
+					<span class="iconfont icon-sousuo i"></span>
 					<span class="text">搜索商品名称</span>
 				</a>
 			</div>
@@ -75,8 +75,8 @@
 		    color: rgba(0,0,0,.3);
 		}
 		.search_bar .i{
-			font-size: .3rem;
-		    color: rgba(0,0,0,1);
+			font-size: .25rem;
+		    color: rgba(0,0,0,0.5);
 		}
 		 .login{
 		    display: block;
