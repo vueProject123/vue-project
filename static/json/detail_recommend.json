@@ -1,0 +1,181 @@
+{
+	"code": 0,
+	"result": "ok",
+	"description": "success",
+	"data": {
+		"recommend_list": [
+			{
+				"product_id": "10000030",
+				"commodity_id": "10000030",
+				"name": "小米5c",
+				"image_url": "//i8.mifile.cn/v1/a1/91096d0f-2671-b6ca-989c-7a37f7aab7ff.webp",
+				"action": {
+					"type": "product",
+					"path": "10000030",
+					"log_code": "recom_product_10-0#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000030",
+					"recommend_code": "recom_product_10-0#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000030"
+				},
+				"big_image_url": "",
+				"price": "1499",
+				"market_price": "1499",
+				"product_desc": "又轻又薄的拍照手机",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "10000057",
+				"commodity_id": "10000057",
+				"name": "小米Max 2",
+				"image_url": "//i8.mifile.cn/v1/a1/c6974a87-b451-232d-870e-692594431a6a.webp",
+				"action": {
+					"type": "product",
+					"path": "10000057",
+					"log_code": "recom_product_10-1#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000057",
+					"recommend_code": "recom_product_10-1#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000057"
+				},
+				"big_image_url": "",
+				"price": "1699",
+				"market_price": "1699",
+				"product_desc": "6.44\"大屏，5300mAh大电量",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "10000024",
+				"commodity_id": "10000024",
+				"name": "小米5s",
+				"image_url": "//i8.mifile.cn/v1/a1/547dbcaa-c30e-c815-2d30-859335577a9e.webp",
+				"action": {
+					"type": "product",
+					"path": "10000024",
+					"log_code": "recom_product_10-2#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000024",
+					"recommend_code": "recom_product_10-2#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000024"
+				},
+				"big_image_url": "",
+				"price": "1999",
+				"market_price": "1999",
+				"product_desc": "“暗夜之眼”超感光相机",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "10000029",
+				"commodity_id": "10000029",
+				"name": "红米Note 4X",
+				"image_url": "//i8.mifile.cn/v1/a1/fb4f9754-0164-b2a1-59b9-8ad995cee0ac.webp",
+				"action": {
+					"type": "product",
+					"path": "10000029",
+					"log_code": "recom_product_10-3#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000029",
+					"recommend_code": "recom_product_10-3#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000029"
+				},
+				"big_image_url": "",
+				"price": "999",
+				"market_price": "999",
+				"product_desc": "多彩金属，超长续航",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "10000031",
+				"commodity_id": "10000031",
+				"name": "红米4X",
+				"image_url": "//i8.mifile.cn/v1/a1/a78858e2-d800-4357-a8c0-ad7ef45d0a10.webp",
+				"action": {
+					"type": "product",
+					"path": "10000031",
+					"log_code": "recom_product_10-4#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000031",
+					"recommend_code": "recom_product_10-4#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000031"
+				},
+				"big_image_url": "",
+				"price": "699",
+				"market_price": "699",
+				"product_desc": "超长续航，5\"舒适单手握感",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "6009",
+				"commodity_id": "6009",
+				"name": "米粉卡日租卡",
+				"image_url": "//i8.mifile.cn/v1/a1/73bc0970-1ed8-03b7-042f-ddf9d7375599.webp",
+				"action": {
+					"type": "product",
+					"path": "6009",
+					"log_code": "recom_product_10-5#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=6009",
+					"recommend_code": "recom_product_10-5#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=6009"
+				},
+				"big_image_url": "",
+				"price": "50",
+				"market_price": "50",
+				"product_desc": "3元不限量，1元500M",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "4565",
+				"commodity_id": "4565",
+				"name": "小米手环2",
+				"image_url": "//i8.mifile.cn/v1/a1/97c2e91e-523e-3988-3abc-aacc824f2737.webp",
+				"action": {
+					"type": "product",
+					"path": "4565",
+					"log_code": "recom_product_10-6#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=4565",
+					"recommend_code": "recom_product_10-6#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=4565"
+				},
+				"big_image_url": "",
+				"price": "149",
+				"market_price": "149",
+				"product_desc": "OLED 显示屏，触摸操作",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "10000038",
+				"commodity_id": "10000038",
+				"name": "小米平板3",
+				"image_url": "//i8.mifile.cn/v1/a1/b6c55f3b-d4ac-b2be-8d7c-3c818a79030a.webp",
+				"action": {
+					"type": "product",
+					"path": "10000038",
+					"log_code": "recom_product_10-7#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000038",
+					"recommend_code": "recom_product_10-7#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000038"
+				},
+				"big_image_url": "",
+				"price": "1499",
+				"market_price": "1499",
+				"product_desc": "6600mAh 超大电量",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "10000021",
+				"commodity_id": "10000021",
+				"name": "小米Note 2",
+				"image_url": "//i8.mifile.cn/v1/a1/7737cbb7-e873-8cf9-1f85-9fabb6c35da5.webp",
+				"action": {
+					"type": "product",
+					"path": "10000021",
+					"log_code": "recom_product_10-8#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000021",
+					"recommend_code": "recom_product_10-8#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000021"
+				},
+				"big_image_url": "",
+				"price": "2799",
+				"market_price": "2799",
+				"product_desc": "5.7\" 双曲面 / 2256万相机",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}, {
+				"product_id": "10000022",
+				"commodity_id": "10000022",
+				"name": "小米MIX",
+				"image_url": "//i8.mifile.cn/v1/a1/beef0019-2bfb-cba6-54cc-4063592d15aa.webp",
+				"action": {
+					"type": "product",
+					"path": "10000022",
+					"log_code": "recom_product_10-9#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000022",
+					"recommend_code": "recom_product_10-9#eid=24:0:0:0:0:0:0:0:0:0\u0026tid=DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==\u0026page=product\u0026pid=10000022"
+				},
+				"big_image_url": "",
+				"price": "3499",
+				"market_price": "3499",
+				"product_desc": "6.4\" 全面屏，全陶瓷机身",
+				"trace_id": "DetailPageRec-78cpaAwFqwUTL0eVFuqCzg==",
+				"eid": "24:0:0:0:0:0:0:0:0:0"
+			}
+		],
+		"title": "为你推荐"
+	}
+}

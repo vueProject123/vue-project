@@ -1,8 +1,8 @@
 <template>
 	<div class="headerNav">
 		<ul>
-			<li v-for="list in titleList">
-				<span @click='getComponent(list.tab_name)'>{{list.tab_name}}</span>
+			<li v-for="list in titleList" :class="tab_type==list.params.tab_index?'active':''">
+				<span @click='getComponent(list.tab_name,list.params.tab_index)'>{{list.tab_name}}</span>
 			</li>
 		</ul>
 		<component :is='component'></component>
@@ -23,8 +23,9 @@
 		data:function(){
 			return {
 				titleList:[],
-				isShow:true,
-				component:'tuijian'
+				component:'tuijian',
+				tab_type:0,
+				classStyle:false
 			}
 		},
 		methods:{
@@ -34,9 +35,11 @@
 				.then(function(res){
 //					console.log(res.data.data.tabs)
 					that.titleList=res.data.data.tabs
+					console.log(that.titleList)
 				})
 			},
-			getComponent(val){
+			getComponent(val,index){
+				this.tab_type=index
 				if(this.titleList){
 					var that=this
 					this.titleList.forEach(function(list,index){
@@ -86,16 +89,13 @@
 		    	span{
 		    		line-height: .6rem;
 		    	}
-		    	span:hover{
+		    	/*span:hover{
 		    		color: #ed5b00;
-		    	}
+		    	}*/
 		    	&.active{
 		    		border-bottom:2px solid #ed5b00;
 		    		color: #ed5b00;
 		    	}
-		    }
-		    li:hover{
-		    	border-bottom:2px solid #ed5b00;
 		    }
 		}
 	}

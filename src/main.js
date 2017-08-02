@@ -16,5 +16,9 @@ new Vue({
   },
   router,
   template: '<App/>',
-  components: { App }
+  components: { App },
+  beforeUpdate(){
+  	this.clientWidth=document.documentElement.clientWidth
+  	document.documentElement.style.fontSize = this.clientWidth / 7.2 + 'px';
+  }
 })

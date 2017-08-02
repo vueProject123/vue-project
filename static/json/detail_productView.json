@@ -1,0 +1,671 @@
+{
+	"code": 0,
+	"result": "ok",
+	"description": "success",
+	"data": {
+		"buy_option": [
+			{
+				"list": [
+					{
+						"icon_color": "",
+						"icon_img": "",
+						"is_stock": true,
+						"name": "4GB+64GB",
+						"price": "",
+						"prop_desc": "",
+						"prop_value_id": 449
+					}
+				],
+				"name": "版本",
+				"prop_cfg_id": 126
+			}, {
+				"list": [
+					{
+						"icon_color": "",
+						"icon_img": "//i8.mifile.cn/b2c-mimall-media/bc99af80103f531296be0be09811bd7f.png",
+						"is_stock": false,
+						"name": "黑色",
+						"price": "",
+						"prop_desc": "",
+						"prop_value_id": 452
+					}, {
+						"icon_color": "",
+						"icon_img": "//i8.mifile.cn/b2c-mimall-media/1c84f395fb5da4bfbb1c01f860440a77.png",
+						"is_stock": false,
+						"name": "金色",
+						"price": "",
+						"prop_desc": "",
+						"prop_value_id": 451
+					}, {
+						"icon_color": "",
+						"icon_img": "//i8.mifile.cn/b2c-mimall-media/29745bdcdd4c342b1c761ba9dfdb9974.png",
+						"is_stock": false,
+						"name": "玫瑰金",
+						"price": "",
+						"prop_desc": "",
+						"prop_value_id": 450
+					}
+				],
+				"name": "颜色",
+				"prop_cfg_id": 127
+			}
+		],
+		"default_goods_id": "2172800002",
+		"goods_info": [
+			{
+				"action_button": {
+					"button_title": "加入购物车",
+					"is_bigtap": true,
+					"occ_timeout": 3000,
+					"sale_mode": "standard",
+					"use_occ": true
+				},
+				"address_type": "common",
+				"buy_limit": "2",
+				"commodity_id": 1172800004,
+				"goods_id": 2172800002,
+				"image_share": "http://i8.mifile.cn/v1/a1/65956d73-07a6-3d03-67e3-5c546a271b8b!144x144.jpg",
+				"img_url": "//i8.mifile.cn/v1/a1/65956d73-07a6-3d03-67e3-5c546a271b8b!540x540.jpg",
+				"instalment": {
+					"default_instal": "antinstal_m",
+					"list": [
+						{
+							"bank": "antinstal_m",
+							"desc": "花呗分期",
+							"detail": [
+								{
+									"interest": "34.48",
+									"rate": "2.30",
+									"stage": 3,
+									"stage_cost": "511.15",
+									"stage_interest": "11.49",
+									"total_cost": "1533.48"
+								}, {
+									"interest": "67.46",
+									"rate": "4.50",
+									"stage": 6,
+									"stage_cost": "261.07",
+									"stage_interest": "11.24",
+									"total_cost": "1566.46"
+								}, {
+									"interest": "112.42",
+									"rate": "7.50",
+									"stage": 12,
+									"stage_cost": "134.27",
+									"stage_interest": "9.36",
+									"total_cost": "1611.42"
+								}
+							],
+							"title": "花呗分期"
+						}, {
+							"bank": "mifinanceinstal_m",
+							"desc": "小米分期",
+							"detail": [
+								{
+									"interest": "33.28",
+									"rate": "2.22",
+									"stage": 3,
+									"stage_cost": "510.76",
+									"stage_interest": "11.09",
+									"total_cost": "1532.28"
+								}, {
+									"interest": "58.46",
+									"rate": "3.90",
+									"stage": 6,
+									"stage_cost": "259.57",
+									"stage_interest": "9.74",
+									"total_cost": "1557.46"
+								}, {
+									"interest": "107.93",
+									"rate": "7.20",
+									"stage": 12,
+									"stage_cost": "133.91",
+									"stage_interest": "8.99",
+									"total_cost": "1606.93"
+								}
+							],
+							"title": "小米分期"
+						}
+					]
+				},
+				"insurance": {
+					"list": [
+						{
+							"goods_id": "2173000013",
+							"market_price": "119",
+							"name": "小米5X 意外保险",
+							"price": "119",
+							"short_name": "小米5X 意外保险",
+							"type": "mi5s"
+						}
+					]
+				},
+				"is_sale": true,
+				"is_stock": true,
+				"market_price": "1499",
+				"name": "小米5X 4GB+64GB 金色",
+				"price": "1499",
+				"prop_list": [
+					{
+						"prop_cfg_id": 126,
+						"prop_value_id": 449
+					}, {
+						"prop_cfg_id": 127,
+						"prop_value_id": 451
+					}
+				],
+				"reduce_price": "",
+				"service_refound_policy": {
+					"desc": "支持7天无理由退货",
+					"is_support": true
+				},
+				"stock_channel": "3"
+			}, {
+				"action_button": {
+					"button_title": "加入购物车",
+					"is_bigtap": true,
+					"occ_timeout": 3000,
+					"sale_mode": "standard",
+					"use_occ": true
+				},
+				"address_type": "common",
+				"buy_limit": "1",
+				"commodity_id": 1172800003,
+				"goods_id": 2172800001,
+				"image_share": "http://i8.mifile.cn/v1/a1/56728f15-2156-9590-4e91-d5fc2cf31479!144x144.jpg",
+				"img_url": "//i8.mifile.cn/v1/a1/56728f15-2156-9590-4e91-d5fc2cf31479!540x540.jpg",
+				"instalment": {
+					"default_instal": "antinstal_m",
+					"list": [
+						{
+							"bank": "antinstal_m",
+							"desc": "花呗分期",
+							"detail": [
+								{
+									"interest": "34.48",
+									"rate": "2.30",
+									"stage": 3,
+									"stage_cost": "511.15",
+									"stage_interest": "11.49",
+									"total_cost": "1533.48"
+								}, {
+									"interest": "67.46",
+									"rate": "4.50",
+									"stage": 6,
+									"stage_cost": "261.07",
+									"stage_interest": "11.24",
+									"total_cost": "1566.46"
+								}, {
+									"interest": "112.42",
+									"rate": "7.50",
+									"stage": 12,
+									"stage_cost": "134.27",
+									"stage_interest": "9.36",
+									"total_cost": "1611.42"
+								}
+							],
+							"title": "花呗分期"
+						}, {
+							"bank": "mifinanceinstal_m",
+							"desc": "小米分期",
+							"detail": [
+								{
+									"interest": "33.28",
+									"rate": "2.22",
+									"stage": 3,
+									"stage_cost": "510.76",
+									"stage_interest": "11.09",
+									"total_cost": "1532.28"
+								}, {
+									"interest": "58.46",
+									"rate": "3.90",
+									"stage": 6,
+									"stage_cost": "259.57",
+									"stage_interest": "9.74",
+									"total_cost": "1557.46"
+								}, {
+									"interest": "107.93",
+									"rate": "7.20",
+									"stage": 12,
+									"stage_cost": "133.91",
+									"stage_interest": "8.99",
+									"total_cost": "1606.93"
+								}
+							],
+							"title": "小米分期"
+						}
+					]
+				},
+				"insurance": {
+					"list": [
+						{
+							"goods_id": "2173000013",
+							"market_price": "119",
+							"name": "小米5X 意外保险",
+							"price": "119",
+							"short_name": "小米5X 意外保险",
+							"type": "mi5s"
+						}
+					]
+				},
+				"is_sale": true,
+				"is_stock": true,
+				"market_price": "1499",
+				"name": "小米5X 4GB+64GB 黑色",
+				"price": "1499",
+				"prop_list": [
+					{
+						"prop_cfg_id": 126,
+						"prop_value_id": 449
+					}, {
+						"prop_cfg_id": 127,
+						"prop_value_id": 452
+					}
+				],
+				"reduce_price": "",
+				"service_refound_policy": {
+					"desc": "支持7天无理由退货",
+					"is_support": true
+				},
+				"stock_channel": "3"
+			}, {
+				"action_button": {
+					"button_title": "加入购物车",
+					"is_bigtap": true,
+					"occ_timeout": 3000,
+					"sale_mode": "standard",
+					"use_occ": true
+				},
+				"address_type": "common",
+				"buy_limit": "1",
+				"commodity_id": 1172800005,
+				"goods_id": 2172800003,
+				"image_share": "http://i8.mifile.cn/v1/a1/ba2a9786-ae05-d905-9f0f-67f83ee251f8!144x144.jpg",
+				"img_url": "//i8.mifile.cn/v1/a1/ba2a9786-ae05-d905-9f0f-67f83ee251f8!540x540.jpg",
+				"instalment": {
+					"default_instal": "antinstal_m",
+					"list": [
+						{
+							"bank": "antinstal_m",
+							"desc": "花呗分期",
+							"detail": [
+								{
+									"interest": "34.48",
+									"rate": "2.30",
+									"stage": 3,
+									"stage_cost": "511.15",
+									"stage_interest": "11.49",
+									"total_cost": "1533.48"
+								}, {
+									"interest": "67.46",
+									"rate": "4.50",
+									"stage": 6,
+									"stage_cost": "261.07",
+									"stage_interest": "11.24",
+									"total_cost": "1566.46"
+								}, {
+									"interest": "112.42",
+									"rate": "7.50",
+									"stage": 12,
+									"stage_cost": "134.27",
+									"stage_interest": "9.36",
+									"total_cost": "1611.42"
+								}
+							],
+							"title": "花呗分期"
+						}, {
+							"bank": "mifinanceinstal_m",
+							"desc": "小米分期",
+							"detail": [
+								{
+									"interest": "33.28",
+									"rate": "2.22",
+									"stage": 3,
+									"stage_cost": "510.76",
+									"stage_interest": "11.09",
+									"total_cost": "1532.28"
+								}, {
+									"interest": "58.46",
+									"rate": "3.90",
+									"stage": 6,
+									"stage_cost": "259.57",
+									"stage_interest": "9.74",
+									"total_cost": "1557.46"
+								}, {
+									"interest": "107.93",
+									"rate": "7.20",
+									"stage": 12,
+									"stage_cost": "133.91",
+									"stage_interest": "8.99",
+									"total_cost": "1606.93"
+								}
+							],
+							"title": "小米分期"
+						}
+					]
+				},
+				"insurance": {
+					"list": [
+						{
+							"goods_id": "2173000013",
+							"market_price": "119",
+							"name": "小米5X 意外保险",
+							"price": "119",
+							"short_name": "小米5X 意外保险",
+							"type": "mi5s"
+						}
+					]
+				},
+				"is_sale": true,
+				"is_stock": true,
+				"market_price": "1499",
+				"name": "小米5X 4GB+64GB 玫瑰金",
+				"price": "1499",
+				"prop_list": [
+					{
+						"prop_cfg_id": 126,
+						"prop_value_id": 449
+					}, {
+						"prop_cfg_id": 127,
+						"prop_value_id": 450
+					}
+				],
+				"reduce_price": "",
+				"service_refound_policy": {
+					"desc": "支持7天无理由退货",
+					"is_support": true
+				},
+				"stock_channel": "3"
+			}
+		],
+		"product_info": {
+			"is_batched": false,
+			"is_enable": true,
+			"name": "小米5X",
+			"product_desc": "\u003cfont color=\"#ff4a00\"\u003e【小米5X新品上市，现货在售】\u003c/font\u003e光学变焦双摄，拍人更美 / 5.5\"大屏轻薄全金属 / 骁龙八核处理器 / 4GB大内存",
+			"product_id": 10000064,
+			"share_content": ""
+		},
+		"seo": {
+			"description": "\u003cfont color=\"#ff4a00\"\u003e【小米5X新品上市，现货在售】\u003c/font\u003e光学变焦双摄，拍人更美 / 5.5\"大屏轻薄全金属 / 骁龙八核处理器 / 4GB大内存",
+			"keywords": "小米5X,4GB+64GB,金色,黑色,玫瑰金",
+			"title": "小米5X"
+		},
+		"server_time": 1501571537,
+		"view_content": {
+			"commentView": {
+				"commentView": {
+					"detail": {
+						"comment_labels": null,
+						"comments_bad": 0,
+						"comments_general": 0,
+						"comments_good": 4,
+						"comments_total": 4,
+						"five_star": 4,
+						"four_star": 0,
+						"one_star": 0,
+						"satisfy_per": "100.0",
+						"three_star": 0,
+						"two_star": 0
+					},
+					"list": [
+						{
+							"add_time": "2017-08-01",
+							"average_grade": 5,
+							"comment_content": "差评！绝对要给差评！满怀期待，以为明天可以收货，今天竟然就到了。快的有点不像话。现在快递开的不是车，都是风火轮吗？",
+							"comment_full_images": [
+								"//i1.mifile.cn/a2/1501566963_3900274_s1000_750wh.jpg"
+							],
+							"comment_grade": 1,
+							"comment_id": "150433059",
+							"comment_images": [
+								"//cdn.cnbj0.fds.api.mi-img.com/b2c-data-mishop/b6cdf0562757ccb578c00270a247bf02.webp"
+							],
+							"comment_title": "",
+							"down": false,
+							"down_num": 0,
+							"has_up_customer": false,
+							"is_top": "0",
+							"reply_content": "",
+							"reply_time": "1970-01-01",
+							"site_id": "101",
+							"site_name": "小米移动商城",
+							"up": false,
+							"up_customer_num": 0,
+							"up_num": 450,
+							"up_rate": 100,
+							"user_avatar": "//s1.mi-img.com/mfsv2/avatar/fdsc3/p018Uj7hFLBs/hUJDhiA9Pzj2bh_90.jpg",
+							"user_id": "213***437",
+							"user_name": "VC酸钙奶",
+							"user_reply_num": 0,
+							"user_replys": []
+						}
+					],
+					"total": 7
+				},
+				"viewType": "commentView"
+			},
+			"descTabsView": {
+				"descTabsView": [
+					{
+						"name": "概述",
+						"tabContent": [
+							{
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/eb92c1d8-6c72-ebe4-e6be-7efb664b7d79!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/c68d5359-a700-7aa5-5e6c-685d95054249!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/2e20d974-4be0-f72c-c058-db6ee76cc520!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/aa57a386-739f-8af1-b319-9a745f149e9b!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/0dd51966-8c6e-cc3e-d01e-e5ba1edd5c50!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/49cadd22-5258-acae-5d57-4b695b81e114!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/51cec16e-4a1d-51b2-7555-27245bc76f7c!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/e0da78b9-43ed-a0bd-a0a9-6bba1df52653!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/5fd88454-2ce0-4c04-40fb-643bc49d023c!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/aa04fda5-79e1-95b2-486a-0123708f6c11!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}
+						]
+					}, {
+						"name": "参数",
+						"tabContent": [
+							{
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/9598c633-ef3c-2abd-b116-842a693207d4!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/9195687e-c747-0bee-a58a-c7badf1e3e52!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/42d28fd3-82b9-79ea-2f84-97af5595ab85!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/6fffe3e6-5e73-4a57-147b-7e02852e37d9!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/325e9f5d-8f40-2a61-029b-a7617873f0c6!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/a5ecbd93-2fc3-3186-a024-13b59f8d6632!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/df09faad-66d0-c305-844d-2d0ddc8020a3!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/4d83efe8-2343-11b4-fbb8-659d19b493f7!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/7db5717a-c586-2fc1-c102-b2eef3a62bd5!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/c7bf51aa-253b-210f-e54b-19554d11bdd6!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}, {
+								"plainView": {
+									"content": "",
+									"img": "//i8.mifile.cn/v1/a1/7cadf167-b83d-e431-4710-e4582c1656a2!540x540.jpg",
+									"is_not_compress": "0",
+									"title": ""
+								},
+								"viewType": "plainView"
+							}
+						]
+					}
+				],
+				"viewType": "descTabsView"
+			},
+			"galleryView": {
+				"galleryView": [
+					"//i8.mifile.cn/v1/a1/47db8765-0ac3-a6b7-936a-a6bd2a3cfe3a.webp",
+					"//i8.mifile.cn/v1/a1/bcb3cca4-26df-faa0-3f50-45508a9aa30c.webp",
+					"//i8.mifile.cn/v1/a1/f5afd125-d485-06e0-a5f3-9fafe93fe35d.webp",
+					"//i8.mifile.cn/v1/a1/989794ef-6340-6f36-46c3-b4a764c5f856.webp"
+				],
+				"viewType": "galleryView"
+			},
+			"relatePackageView": {
+				"relatePackageView": {
+					"packages": [],
+					"title": "精选套餐"
+				},
+				"viewType": "relatePackageView"
+			},
+			"relatePartsView": {
+				"relatePartsView": {
+					"desc": "",
+					"parts": [],
+					"title": "配件"
+				},
+				"viewType": "relatePartsView"
+			},
+			"titleView": {
+				"titleView": {
+					"adapt": [],
+					"brief": "",
+					"canJoinActs": [],
+					"market_price": "1499",
+					"name": "小米5X",
+					"price": "1499",
+					"product_desc": "\u003cfont color=\"#ff4a00\"\u003e【小米5X新品上市，现货在售】\u003c/font\u003e光学变焦双摄，拍人更美 / 5.5\"大屏轻薄全金属 / 骁龙八核处理器 / 4GB大内存",
+					"share_content": ""
+				},
+				"viewType": "titleView"
+			}
+		}
+	}
+}

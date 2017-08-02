@@ -1,0 +1,38 @@
+{
+	"code": 0,
+	"result": "ok",
+	"description": "success",
+	"data": [
+		{
+			"commodity_id": 1172800004,
+			"canJoinActs": [
+				{
+					"type": "interestfree",
+					"type_desc": "可分期",
+					"title": "",
+					"active_id": ""
+				}
+			]
+		}, {
+			"commodity_id": 1172800003,
+			"canJoinActs": [
+				{
+					"type": "interestfree",
+					"type_desc": "可分期",
+					"title": "",
+					"active_id": ""
+				}
+			]
+		}, {
+			"commodity_id": 1172800005,
+			"canJoinActs": [
+				{
+					"type": "interestfree",
+					"type_desc": "可分期",
+					"title": "",
+					"active_id": ""
+				}
+			]
+		}
+	]
+}

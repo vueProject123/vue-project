@@ -26,15 +26,28 @@
 			</div>
 		</div>
 		<div class="section">
-			<div class="left" >
-				<img src="//i8.mifile.cn/v1/a1/a040f5f4-e34f-acaa-64bc-fa786c61b0c5!358x508.webp"/>
+			<div class="left" data-ad_position_id='215'>
+				<img src="//i8.mifile.cn/v1/a1/435946f2-46a6-9201-7242-e10fe972916d.webp" />
 			</div>
 			<div class="right">
-				<div class="item top">
-					<img src=""/>
+				<div class="item top" data-ad_position_id='216'>
+					<img src="//i8.mifile.cn/v1/a1/70c9dec4-3a1d-8508-70f2-84a9c119cd04!358x252.webp" />
 				</div>
-				<div class="item bottom">
-					<img src=""/>
+				<div class="item bottom" data-ad_position_id='217'>
+					<img src="//i8.mifile.cn/v1/a1/87f6b34c-042f-0755-8f85-78c1cd41988d!358x252.webp" />
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="left" data-ad_position_id='215'>
+				<img src="//i8.mifile.cn/v1/a1/435946f2-46a6-9201-7242-e10fe972916d.webp" />
+			</div>
+			<div class="right">
+				<div class="item top" data-ad_position_id='216'>
+					<img src="//i8.mifile.cn/v1/a1/70c9dec4-3a1d-8508-70f2-84a9c119cd04!358x252.webp" />
+				</div>
+				<div class="item bottom" data-ad_position_id='217'>
+					<img src="//i8.mifile.cn/v1/a1/87f6b34c-042f-0755-8f85-78c1cd41988d!358x252.webp" />
 				</div>
 			</div>
 		</div>
@@ -54,7 +67,7 @@
 				TjData_detail_banner: '',
 				TjData_message: '',
 				TjData_tip: '',
-				TjData_section:''
+				TjData_section: ''
 			}
 		},
 		methods: {
@@ -62,20 +75,20 @@
 				var that = this
 				axios.get('/static/json/TitleList.json')
 					.then(function(res) {
-//						console.log(res)
+						//						console.log(res)
 						that.TjData = res.data.data.tabs[0].tab_data
 						that.TjData_detail = that.TjData.sections
-						console.log(that.TjData_detail)
+//						console.log(that.TjData_detail)
 						that.TjData_detail_banner = that.TjData_detail[0].body.items
 						//console.log(that.TjData_detail_banner)
 
 						that.TjData_message = that.TjData_detail[1].body.items
 
 						that.TjData_tip = that.TjData_detail[3].body
-//						console.log(that.TjData_tip)
+						//						console.log(that.TjData_tip)
 
-						that.TjData_section=that.TjData_detail[5].body.items
-						console.log(that.TjData_section)
+						that.TjData_section = that.TjData_detail[5].body.items
+//						console.log(that.TjData_section)
 					})
 			},
 			setTips(val) {
@@ -92,7 +105,7 @@
 				pagination: '.swiper-pagination',
 				paginationClickable: true,
 				autoplay: 2000,
-				autoplayDisableOnInteraction: false
+				loop: true
 			});
 			this.getBanner()
 			this.setTips()
@@ -111,38 +124,40 @@
 
 <style scoped lang="scss">
 	.tuijian {
+		background-color: #fafafa;
 		padding-bottom: 45px;
-		.section{
+		.section {
 			display: flex;
 			justify-content: space-around;
 			align-items: center;
-			position:relative;
-			.left{
+			position: relative;
+			.left {
 				width: 50%;
-				img{
-					width: 3.58rem;
-	    			height: 5.08rem;
-	    			border: 1px solid grey;
+				img {
+					width: 100%;
+					height: 100%;
 				}
 			}
-			.right{
+			.right {
 				width: 50%;
-				.item{
+				img {
+					width: 100%;
+					height: 100%;
+				}
+				.item {
 					position: absolute;
 				}
-				.top{
-				    width: 48%;
-				    height: 2.52rem;
-				    top: 0;
-				    left: 3.62rem;
-				    border: 1px solid pink;
+				.top {
+					width: 50%;
+					height: 2.52rem;
+					top: 0;
+					left: 3.5rem;
 				}
-				.bottom{
-					width: 48%;
-				    height: 2.52rem;
-				    left: 3.62rem;
-				    top: 2.56rem;
-				    border: 1px solid red;
+				.bottom {
+					width: 50%;
+					height: 2.52rem;
+					left: 3.5rem;
+					top: 2.56rem;
 				}
 			}
 		}
@@ -166,9 +181,6 @@
 					top: 0;
 				}
 			}
-			/*.active {
-				z-index: 1;
-			}*/
 			.list {
 				transition: all 0.3s;
 				font-size: .24rem;

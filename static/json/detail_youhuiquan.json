@@ -1,0 +1,64 @@
+{
+	"code": 0,
+	"result": "ok",
+	"description": "success",
+	"data": {
+		"address": {
+			"address_id": "",
+			"address": "",
+			"country": null,
+			"province": null,
+			"city": null,
+			"district": null,
+			"area": null
+		},
+		"regions": {
+			"province": {
+				"id": 2,
+				"name": "北京"
+			},
+			"city": {
+				"id": 36,
+				"name": "北京市"
+			},
+			"district": {
+				"id": 377,
+				"name": "东城区"
+			},
+			"area": {
+				"id": 377017,
+				"name": "永定门外街道"
+			}
+		},
+		"address_info": {
+			"address": "北京市 东城区",
+			"address_id": ""
+		},
+		"datas": {
+			"2172800001": {
+				"can_delivery": 1,
+				"mihome_id": 112,
+				"is_cos": false,
+				"est_is_show": false,
+				"est_delivery_desc": "",
+				"stock_status": "有现货"
+			},
+			"2172800002": {
+				"can_delivery": 1,
+				"mihome_id": 112,
+				"is_cos": false,
+				"est_is_show": false,
+				"est_delivery_desc": "",
+				"stock_status": "有现货"
+			},
+			"2172800003": {
+				"can_delivery": 1,
+				"mihome_id": 112,
+				"is_cos": false,
+				"est_is_show": false,
+				"est_delivery_desc": "",
+				"stock_status": "有现货"
+			}
+		}
+	}
+}

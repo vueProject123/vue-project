@@ -1,6 +1,6 @@
 <template>
 	<div class="life">
-		
+		生活周边
 					
 	</div>
 </template>
@@ -18,5 +18,7 @@
 </script>
 
 <style scoped lang="scss">
-
+	.life{
+		height: 100%;
+	}
 </style>

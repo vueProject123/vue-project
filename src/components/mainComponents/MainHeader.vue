@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="main_box">
 		<div class="index-header">
 			<div class="logo">
 				<img src="../../assets/img/logo.png">
@@ -42,10 +42,8 @@
 </script>
 
 <style scoped lang="scss">
+.main_box{
 	.index-header{
-		position: relative;
-	    top: 0;
-	    left: 0;
 	    right: 0;
 	    z-index: 100;
 	    display: flex;
@@ -91,4 +89,6 @@
 			}
 		}
 	}
+}
+	
 </style>

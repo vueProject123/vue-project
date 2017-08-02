@@ -4,9 +4,9 @@
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide" v-for="banner in bannerData">
-						<router-link to=''>
+						<a :href="'#detail/'+banner.ad_position_id">
 							<img :src="banner.img_url" />
-						</router-link>
+						</a>
 					</div>
 				</div>
 				<div class="swiper-pagination"></div>
@@ -59,6 +59,7 @@
 <script>
 	import Vue from 'vue'
 	import axios from 'axios'
+	
 	const SjComponent = Vue.extend({
 		Swiper: '',
 		data: function() {
@@ -79,10 +80,11 @@
 				axios.get('/static/json/bannerList.json')
 					.then(function(res) {
 						const dataList = res.data.data
-						console.log(dataList)
+//						console.log(dataList)
 						that.shoujiData = dataList["1864"].sections
-//						console.log(that.shoujiData)
+						console.log(that.shoujiData)
 						that.bannerData = that.shoujiData[0].body.items
+//						console.log(that.bannerData)
 						that.ImgData.tipData = that.shoujiData[2].body.items[0].img_url
 						that.ImgData.bigData = that.shoujiData[3].body.items[0]
 						that.ImgData.boxData.push(that.shoujiData[4].body.items)
@@ -103,7 +105,8 @@
 			this.$options.Swiper = new Swiper('.swiper-container', {
 				pagination: '.swiper-pagination',
 				paginationClickable: true,
-				autoplay: 1000
+				autoplay: 2000,
+				loop: true
 			});
 			this.getBanner()
 		}
@@ -114,6 +117,7 @@
 <style scoped lang="scss">
 	.shouji {
 		padding-bottom: 45px;
+		height: 100%;
 		.tip {
 			img {
 				width: 100%;
